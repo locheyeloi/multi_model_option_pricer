@@ -3,6 +3,7 @@
 ![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)
 ![Streamlit](https://img.shields.io/badge/Streamlit-App-red.svg)
 
+## [https://multimodeloptionpricer.streamlit.app/#3-surface-de-prix-black-scholes-prix-vs-spot-and-temps]
 
 ## Description
 Une application quantitative interactive permettant de valoriser simplement des options financières (Européennes et Américaines) en utilisant des données de marché réelles récupérées via l'API Yahoo Finance. 
@@ -19,6 +20,6 @@ Une application quantitative interactive permettant de valoriser simplement des 
 ## Exécution en local
 ```bash
 git clone [https://github.com/locheyeloi/multi_model_option_pricer.git](https://github.com/locheyeloi/multi_model_option_pricer.git)
-cd NOM_DU_REPO
+cd multi_model_option_pricer
 pip install -r requirements.txt
 streamlit run app.py
